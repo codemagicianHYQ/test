@@ -32,7 +32,7 @@ void generateNumbers(int* digits, int digitsSize, int* result, int* resultSize) 
                     if(!found) {
                         result[*resultSize] = num;
                         (*resultSize)++;
-                    }
+                   }
                 }
             }
         }
